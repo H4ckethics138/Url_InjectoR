@@ -17,8 +17,6 @@ Advanced PDF Phantom Link Injector that creates invisible clickable links throug
 
 ## 🛠️ Installation For Kali Linux: & Termux
 
-###🐍 Python Environment Setup
-
 ### Method 1: Step by Step
 ```bash
 # 1. Clone repository
@@ -34,14 +32,11 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 5. Install dependencies
-
+     pip3 install -r requirements.txt
 # 6. Run the tool
 python3 Main.py
 ```
-🚀 Usage
-```bash
-
-For Termux:
+ 🚀 UsageFor Termux:
 
 ```bash
 pkg update
@@ -51,15 +46,8 @@ pkg install python python-pip git -y
 git clone https://github.com/H4ckethics138/Url_InjectoR.git
 # 2. Navigate to directory
 cd Url_InjectoR
-# 3  requirements.txt
+# 3  Install dependencies
+ pip3 install -r requirements.txt
 # 4. Run the tool
-python3 Main.py
+     python3 Main.py
 ```
-🚀 Usage
-```
-📋 Requirements
-
-· Python 3.6 or higher
-· PyMuPDF
-· PyPDF
-· ReportLab
