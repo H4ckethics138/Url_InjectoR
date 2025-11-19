@@ -32,7 +32,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 5. Install dependencies
-     pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 # 6. Run the tool
 python3 Main.py
 ```
@@ -47,7 +47,7 @@ git clone https://github.com/H4ckethics138/Url_InjectoR.git
 # 2. Navigate to directory
 cd Url_InjectoR
 # 3  Install dependencies
- pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 # 4. Run the tool
-     python3 Main.py
+python3 Main.py
 ```
